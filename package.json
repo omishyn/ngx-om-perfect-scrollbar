@@ -29,6 +29,7 @@
     "type": "git",
     "url": "https://github.com/omishyn/ngx-om-perfect-scrollbar.git"
   },
+  "private": true,
   "config": {
     "deployToGit": {
       "repository": "git@github.com:omishyn/ngx-om-perfect-scrollbar.git",
