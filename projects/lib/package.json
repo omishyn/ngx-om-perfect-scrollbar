@@ -8,6 +8,11 @@
     "type": "git",
     "url": "https://github.com/omishyn/ngx-om-perfect-scrollbar.git"
   },
+  "author": {
+    "name": "Oleh Mishyn",
+    "email": "mishyn.uk@gmail.com",
+    "url": "https://github.com/omishyn"
+  },
   "dependencies": {
     "om-perfect-scrollbar": "~1.5.0",
     "resize-observer-polyfill": "^1.5.0"
