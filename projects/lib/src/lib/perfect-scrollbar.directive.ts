@@ -1,10 +1,7 @@
-import PerfectScrollbar from 'om-perfect-scrollbar';
-
+import { PerfectScrollbar } from 'om-perfect-scrollbar';
 import ResizeObserver from 'resize-observer-polyfill';
-
 import { Subject, fromEvent } from 'rxjs';
 import { auditTime, takeUntil } from 'rxjs/operators';
-
 import { PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 import { NgZone, Inject, Optional, ElementRef, Directive,

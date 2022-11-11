@@ -2,7 +2,7 @@
   "name": "ngx-om-perfect-scrollbar",
   "description": "Angular wrapper library for Perfect Scrollbar",
   "bugs": "https://github.com/omishyn/ngx-om-perfect-scrollbar/issues",
-  "version": "10.1.1",
+  "version": "14.0.1",
   "license": "MIT",
   "author": {
     "name": "Oleh Mishyn",
@@ -44,28 +44,28 @@
     }
   },
   "dependencies": {
-    "@angular/cdk": "^10.0.0",
-    "@angular/common": "^10.0.0",
-    "@angular/compiler": "^10.0.0",
-    "@angular/core": "^10.0.0",
-    "@angular/flex-layout": "10.0.0-beta.32",
-    "@angular/platform-browser": "^10.0.0",
-    "@angular/platform-browser-dynamic": "^10.0.0",
-    "om-perfect-scrollbar": "~1.5.0",
+    "@angular/cdk": "^14.0.0",
+    "@angular/common": "^14.0.0",
+    "@angular/compiler": "^14.0.0",
+    "@angular/core": "^14.0.0",
+    "@angular/flex-layout": "14.0.0-beta.41",
+    "@angular/platform-browser": "^14.0.0",
+    "@angular/platform-browser-dynamic": "^14.0.0",
+    "om-perfect-scrollbar": "^2.0.1",
     "resize-observer-polyfill": "^1.5.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.1000.0",
+    "@angular-devkit/build-angular": "~14.2.0",
     "@angular-devkit/build-ng-packagr": "^0.1000.0",
-    "@angular/cli": "^10.0.0",
-    "@angular/compiler-cli": "^10.0.0",
-    "@types/node": "^12.12.0",
+    "@angular/cli": "^14.0.0",
+    "@angular/compiler-cli": "^14.0.0",
+    "@types/node": "~13.9.1",
     "codelyzer": "^6.0.0",
     "core-js": "^3.6.0",
     "cpx": "^1.5.0",
     "deploy-to-git": "^0.1.0",
     "mkdirp": "^1.0.0",
-    "ng-packagr": "^10.0.0",
+    "ng-packagr": "~14.1.0",
     "rimraf": "^3.0.0",
     "rxjs": "^6.6.0",
     "stylelint": "^13.6.0",
@@ -75,8 +75,8 @@
     "ts-node": "^8.10.0",
     "tsickle": "^0.39.0",
     "tslint": "^6.1.0",
-    "typescript": "~3.9.0",
+    "typescript": "4.6.4",
     "watch": "^1.0.0",
-    "zone.js": "^0.10.0"
+    "zone.js": "^0.11.8"
   }
 }

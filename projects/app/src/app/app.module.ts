@@ -1,12 +1,6 @@
 import { NgModule } from '@angular/core';
-
 import { BrowserModule } from '@angular/platform-browser';
-
 import { FlexLayoutModule } from '@angular/flex-layout';
-
-// import { PerfectScrollbarModule, PerfectScrollbarConfigInterface,
-//   PERFECT_SCROLLBAR_CONFIG } from 'ngx-om-perfect-scrollbar';
-
 import { AppComponent } from './app.component';
 import {
   PerfectScrollbarConfigInterface,
