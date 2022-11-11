@@ -14,8 +14,9 @@
     "lint": "ng lint",
     "start": "ng serve app",
     "build": "ng build lib",
+    "build:app": "ng build app --configuration=production --base-href=ngx-om-perfect-scrollbar --delete-output-path=false",
     "deploy": "deploy-to-git",
-    "prepare": "ng build lib --prod",
+    "prepare": "ng build lib --configuration=production",
     "publish": "npm publish ./dist/lib",
     "predeploy": "rimraf ./dist/app && mkdirp ./dist/app"
   },
@@ -35,7 +36,7 @@
       "repository": "git@github.com:omishyn/ngx-om-perfect-scrollbar.git",
       "branch": "gh-pages",
       "folder": "dist/app",
-      "script": "ng build app --prod -- --base-href=ngx-om-perfect-scrollbar --delete-output-path=false",
+      "script": "ng build app --configuration=production --base-href=ngx-om-perfect-scrollbar --delete-output-path=false",
       "commit": "Publishing $npm_package_version",
       "user": {
         "name": "Oleh Mishyn",

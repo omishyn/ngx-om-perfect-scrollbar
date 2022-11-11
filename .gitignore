@@ -13,3 +13,4 @@ example/node_modules/
 .DS_Store
 node_modules
 .idea
+.angular/
