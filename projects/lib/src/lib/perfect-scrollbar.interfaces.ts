@@ -64,6 +64,9 @@ export interface PerfectScrollbarConfigInterface {
 
   scrollXMarginOffset?: number;
   scrollYMarginOffset?: number;
+
+  containerHeightCalculationError?: number;
+  containerWidthCalculationError?: number;
 }
 
 export class PerfectScrollbarConfig implements PerfectScrollbarConfigInterface {
@@ -85,6 +88,9 @@ export class PerfectScrollbarConfig implements PerfectScrollbarConfigInterface {
 
   public scrollXMarginOffset?: number;
   public scrollYMarginOffset?: number;
+
+  public containerHeightCalculationError = 2;
+  public containerWidthCalculationError = 2;
 
   constructor(config: PerfectScrollbarConfigInterface = {}) {
     this.assign(config);

@@ -8,5 +8,6 @@ import { PerfectScrollbarDirective } from './perfect-scrollbar.directive';
     declarations: [PerfectScrollbarComponent, PerfectScrollbarDirective],
     exports: [CommonModule, PerfectScrollbarComponent, PerfectScrollbarDirective]
 })
-export class PerfectScrollbarModule {
-}
+export class PerfectScrollbarModule {}
+
+export { PerfectScrollbarModel } from 'om-perfect-scrollbar';

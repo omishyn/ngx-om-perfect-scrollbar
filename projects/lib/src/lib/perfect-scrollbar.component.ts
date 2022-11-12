@@ -1,14 +1,11 @@
 import { Subject, merge, fromEvent } from 'rxjs';
 import { mapTo, takeUntil, distinctUntilChanged } from 'rxjs/operators';
-
 import { PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 import { NgZone, Inject, Component,
   OnInit, OnDestroy, DoCheck, Input, Output, EventEmitter, HostBinding,
   ViewChild, ViewEncapsulation, ChangeDetectorRef } from '@angular/core';
-
 import { PerfectScrollbarDirective } from './perfect-scrollbar.directive';
-
 import { PerfectScrollbarEvent, PerfectScrollbarEvents,
   PerfectScrollbarConfigInterface } from './perfect-scrollbar.interfaces';
 
@@ -114,7 +111,7 @@ export class PerfectScrollbarComponent implements OnInit, OnDestroy, DoCheck {
                 this.allowPropagationY = false;
               }
             }
-          } else {
+          } else {
             if (state === 'left' || state === 'right') {
               this.states.left = false;
               this.states.right = false;
