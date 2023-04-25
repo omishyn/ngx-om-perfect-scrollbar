@@ -6,7 +6,7 @@ function getSource(name) {
 }
 
 function getDest(name) {
-    return path.join(__dirname, `./node_modules/gui/build/${name}`);
+    return path.join(__dirname, `./node_modules/${name}`);
 }
 
 function fixModules() {
