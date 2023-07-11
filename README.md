@@ -101,7 +101,7 @@ Simply replace the element that would ordinarily be passed to `PerfectScrollbar`
 When using only the directive you need to provide your own theming or import the default theme:
 
 ```css
-@import '~perfect-scrollbar/css/perfect-scrollbar.css';
+@import '~om-perfect-scrollbar/css/perfect-scrollbar.css';
 ```
 
 Perfect Scrollbar directive should be used with div elements and can take optional custom configuration:
