@@ -4,7 +4,6 @@ import { PerfectScrollbarComponent, PerfectScrollbarDirective } from '../../../l
 
 @Component({
   selector: 'my-app',
-  moduleId: 'src/app/app.component',
   templateUrl: 'app.component.html',
   styleUrls: [ 'app.component.css' ]
 })
