@@ -50,7 +50,7 @@
     "@angular/common": "^16.2.7",
     "@angular/compiler": "^16.2.7",
     "@angular/core": "^16.2.7",
-    "@angular/flex-layout": "14.0.0-beta.41",
+    "@angular/flex-layout": "15.0.0-beta.42",
     "@angular/platform-browser": "^16.2.7",
     "@angular/platform-browser-dynamic": "^16.2.7",
     "om-perfect-scrollbar": "^2.0.1",
@@ -75,9 +75,8 @@
     "stylelint-order": "^4.1.0",
     "terser": "^5.0.0",
     "ts-node": "^8.10.0",
-    "tsickle": "^0.39.0",
     "tslint": "^6.1.0",
-    "typescript": "4.9.5",
+    "typescript": "~5.1.0",
     "watch": "^1.0.0",
     "zone.js": "^0.13.3"
   }
