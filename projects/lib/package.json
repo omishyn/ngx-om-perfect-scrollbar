@@ -2,7 +2,7 @@
   "name": "ngx-om-perfect-scrollbar",
   "description": "Angular wrapper library for Perfect Scrollbar",
   "bugs": "https://github.com/omishyn/ngx-om-perfect-scrollbar/issues",
-  "version": "15.0.1",
+  "version": "16.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
     "resize-observer-polyfill": "^1.5.0"
   },
   "peerDependencies": {
-    "@angular/common": ">=14.0.0",
-    "@angular/core": ">=14.0.0"
+    "@angular/common": ">=16.0.0",
+    "@angular/core": ">=16.0.0"
   }
 }
